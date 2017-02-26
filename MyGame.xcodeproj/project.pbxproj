@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F009EE801E44A9A200C75433 /* UserCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F009EE7F1E44A9A200C75433 /* UserCard.m */; };
+		F009EE831E44B2AF00C75433 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F009EE821E44B2AF00C75433 /* Utils.m */; };
 		F08492B21E4205080042EF89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492B11E4205080042EF89 /* main.m */; };
 		F08492B51E4205080042EF89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492B41E4205080042EF89 /* AppDelegate.m */; };
 		F08492B81E4205080042EF89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492B71E4205080042EF89 /* ViewController.m */; };
@@ -15,6 +17,15 @@
 		F08492C01E4205080042EF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08492BE1E4205080042EF89 /* LaunchScreen.storyboard */; };
 		F08492CB1E4205080042EF89 /* MyGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492CA1E4205080042EF89 /* MyGameTests.m */; };
 		F08492D61E4205080042EF89 /* MyGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492D51E4205080042EF89 /* MyGameUITests.m */; };
+		F08492E51E4205230042EF89 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08492E41E4205230042EF89 /* SwipeViewController.m */; };
+		F0E76AD81E4356CC00DE00D3 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76AD71E4356CC00DE00D3 /* ShopViewController.m */; };
+		F0E76ADB1E4356E000DE00D3 /* PlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76ADA1E4356E000DE00D3 /* PlayGameViewController.m */; };
+		F0E76ADE1E4356EE00DE00D3 /* ListCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76ADD1E4356EE00DE00D3 /* ListCardViewController.m */; };
+		F0E76AE11E43584C00DE00D3 /* GameCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76AE01E43584C00DE00D3 /* GameCard.m */; };
+		F0E76AE61E4358AE00DE00D3 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76AE51E4358AE00DE00D3 /* UserProfile.m */; };
+		F0E76AE91E43593A00DE00D3 /* GameProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76AE81E43593A00DE00D3 /* GameProfile.m */; };
+		F0E76AEB1E435B4B00DE00D3 /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = F0E76AEA1E435B4B00DE00D3 /* cards.json */; };
+		F0E76AEF1E435D5D00DE00D3 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E76AEE1E435D5D00DE00D3 /* Level.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F009EE7E1E44A9A200C75433 /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
+		F009EE7F1E44A9A200C75433 /* UserCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCard.m; sourceTree = "<group>"; };
+		F009EE811E44B2AF00C75433 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		F009EE821E44B2AF00C75433 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		F08492AD1E4205080042EF89 /* MyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08492B11E4205080042EF89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F08492B31E4205080042EF89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,23 @@
 		F08492D11E4205080042EF89 /* MyGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08492D51E4205080042EF89 /* MyGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGameUITests.m; sourceTree = "<group>"; };
 		F08492D71E4205080042EF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08492E31E4205230042EF89 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		F08492E41E4205230042EF89 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		F0E76AD61E4356CC00DE00D3 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		F0E76AD71E4356CC00DE00D3 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		F0E76AD91E4356E000DE00D3 /* PlayGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGameViewController.h; sourceTree = "<group>"; };
+		F0E76ADA1E4356E000DE00D3 /* PlayGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayGameViewController.m; sourceTree = "<group>"; };
+		F0E76ADC1E4356EE00DE00D3 /* ListCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCardViewController.h; sourceTree = "<group>"; };
+		F0E76ADD1E4356EE00DE00D3 /* ListCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCardViewController.m; sourceTree = "<group>"; };
+		F0E76ADF1E43584C00DE00D3 /* GameCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCard.h; sourceTree = "<group>"; };
+		F0E76AE01E43584C00DE00D3 /* GameCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCard.m; sourceTree = "<group>"; };
+		F0E76AE41E4358AE00DE00D3 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		F0E76AE51E4358AE00DE00D3 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		F0E76AE71E43593A00DE00D3 /* GameProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProfile.h; sourceTree = "<group>"; };
+		F0E76AE81E43593A00DE00D3 /* GameProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameProfile.m; sourceTree = "<group>"; };
+		F0E76AEA1E435B4B00DE00D3 /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		F0E76AED1E435D5D00DE00D3 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		F0E76AEE1E435D5D00DE00D3 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +133,18 @@
 		F08492AF1E4205080042EF89 /* MyGame */ = {
 			isa = PBXGroup;
 			children = (
+				F0E76AE21E43585100DE00D3 /* Model */,
+				F0E76AE31E43586000DE00D3 /* Controllers */,
 				F08492B31E4205080042EF89 /* AppDelegate.h */,
 				F08492B41E4205080042EF89 /* AppDelegate.m */,
-				F08492B61E4205080042EF89 /* ViewController.h */,
-				F08492B71E4205080042EF89 /* ViewController.m */,
 				F08492B91E4205080042EF89 /* Main.storyboard */,
 				F08492BC1E4205080042EF89 /* Assets.xcassets */,
 				F08492BE1E4205080042EF89 /* LaunchScreen.storyboard */,
 				F08492C11E4205080042EF89 /* Info.plist */,
 				F08492B01E4205080042EF89 /* Supporting Files */,
+				F0E76AEC1E435B5200DE00D3 /* Resources */,
+				F009EE811E44B2AF00C75433 /* Utils.h */,
+				F009EE821E44B2AF00C75433 /* Utils.m */,
 			);
 			path = MyGame;
 			sourceTree = "<group>";
@@ -138,6 +173,48 @@
 				F08492D71E4205080042EF89 /* Info.plist */,
 			);
 			path = MyGameUITests;
+			sourceTree = "<group>";
+		};
+		F0E76AE21E43585100DE00D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0E76ADF1E43584C00DE00D3 /* GameCard.h */,
+				F0E76AE01E43584C00DE00D3 /* GameCard.m */,
+				F009EE7E1E44A9A200C75433 /* UserCard.h */,
+				F009EE7F1E44A9A200C75433 /* UserCard.m */,
+				F0E76AE41E4358AE00DE00D3 /* UserProfile.h */,
+				F0E76AE51E4358AE00DE00D3 /* UserProfile.m */,
+				F0E76AE71E43593A00DE00D3 /* GameProfile.h */,
+				F0E76AE81E43593A00DE00D3 /* GameProfile.m */,
+				F0E76AED1E435D5D00DE00D3 /* Level.h */,
+				F0E76AEE1E435D5D00DE00D3 /* Level.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0E76AE31E43586000DE00D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F08492E31E4205230042EF89 /* SwipeViewController.h */,
+				F08492E41E4205230042EF89 /* SwipeViewController.m */,
+				F08492B61E4205080042EF89 /* ViewController.h */,
+				F08492B71E4205080042EF89 /* ViewController.m */,
+				F0E76AD61E4356CC00DE00D3 /* ShopViewController.h */,
+				F0E76AD71E4356CC00DE00D3 /* ShopViewController.m */,
+				F0E76AD91E4356E000DE00D3 /* PlayGameViewController.h */,
+				F0E76ADA1E4356E000DE00D3 /* PlayGameViewController.m */,
+				F0E76ADC1E4356EE00DE00D3 /* ListCardViewController.h */,
+				F0E76ADD1E4356EE00DE00D3 /* ListCardViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F0E76AEC1E435B5200DE00D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0E76AEA1E435B4B00DE00D3 /* cards.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +329,7 @@
 				F08492C01E4205080042EF89 /* LaunchScreen.storyboard in Resources */,
 				F08492BD1E4205080042EF89 /* Assets.xcassets in Resources */,
 				F08492BB1E4205080042EF89 /* Main.storyboard in Resources */,
+				F0E76AEB1E435B4B00DE00D3 /* cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +354,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E76ADB1E4356E000DE00D3 /* PlayGameViewController.m in Sources */,
+				F0E76AEF1E435D5D00DE00D3 /* Level.m in Sources */,
 				F08492B81E4205080042EF89 /* ViewController.m in Sources */,
+				F009EE831E44B2AF00C75433 /* Utils.m in Sources */,
+				F0E76AE61E4358AE00DE00D3 /* UserProfile.m in Sources */,
 				F08492B51E4205080042EF89 /* AppDelegate.m in Sources */,
+				F0E76AE11E43584C00DE00D3 /* GameCard.m in Sources */,
 				F08492B21E4205080042EF89 /* main.m in Sources */,
+				F0E76ADE1E4356EE00DE00D3 /* ListCardViewController.m in Sources */,
+				F0E76AD81E4356CC00DE00D3 /* ShopViewController.m in Sources */,
+				F08492E51E4205230042EF89 /* SwipeViewController.m in Sources */,
+				F009EE801E44A9A200C75433 /* UserCard.m in Sources */,
+				F0E76AE91E43593A00DE00D3 /* GameProfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +604,7 @@
 				F08492DC1E4205080042EF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F08492DD1E4205080042EF89 /* Build configuration list for PBXNativeTarget "MyGameTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +613,7 @@
 				F08492DF1E4205080042EF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F08492E01E4205080042EF89 /* Build configuration list for PBXNativeTarget "MyGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +622,7 @@
 				F08492E21E4205080042EF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

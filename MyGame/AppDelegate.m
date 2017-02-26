@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SwipeViewController.h"
+#import "ShopViewController.h"
+#import "PlayGameViewController.h"
+#import "ListCardViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    UIPageViewController *pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    
+    SwipeViewController *navigationController = [[SwipeViewController alloc]initWithRootViewController:pageController];
+    
+    ShopViewController *shopViewController = [[ShopViewController alloc]init];
+    PlayGameViewController *playGameViewController = [[PlayGameViewController alloc]init];
+    ListCardViewController *listCardViewController = [[ListCardViewController alloc]init];
+    shopViewController.view.backgroundColor = [UIColor redColor];
+    playGameViewController.view.backgroundColor = [UIColor whiteColor];
+    listCardViewController.view.backgroundColor = [UIColor grayColor];
+    [navigationController.viewControllerArray addObjectsFromArray:@[shopViewController,playGameViewController,listCardViewController]];
+    
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
